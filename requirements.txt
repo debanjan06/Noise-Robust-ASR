@@ -11,4 +11,5 @@ tensorboard>=2.8.0
 jupyter>=1.0.0
 tqdm>=4.64.0
 pyyaml>=6.0
-soundfile>=0.10.0 
+soundfile>=0.10.0
+openai-whisper>=20230918
