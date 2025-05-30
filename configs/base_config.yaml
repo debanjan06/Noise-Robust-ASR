@@ -1,0 +1,22 @@
+# Base configuration for Noise-Robust ASR
+model:
+  name: "openai/whisper-base"
+  device: "auto"  # auto, cpu, cuda
+
+data:
+  sample_rate: 16000
+  max_length: 30  # seconds
+  min_length: 1   # seconds
+
+noise:
+  types: ["white", "pink", "traffic", "crowd"]
+  snr_levels: [0, 5, 10, 15, 20]  # dB
+
+training:
+  batch_size: 8
+  learning_rate: 1e-5
+  num_epochs: 10
+  
+evaluation:
+  metrics: ["wer", "cer", "bleu"]
+  test_split: 0.2
