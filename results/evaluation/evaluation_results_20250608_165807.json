@@ -1,0 +1,54 @@
+{
+  "noise_robustness": [
+    {
+      "scenario": "clean_speech",
+      "snr": null,
+      "transcription": " Ooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo",
+      "ground_truth": "The quick brown fox jumps over the lazy dog",
+      "wer": 1.0,
+      "cer": 41.13953488372093,
+      "inference_time": 21.082672357559204,
+      "success": true
+    },
+    {
+      "scenario": "noisy_10db",
+      "snr": 10,
+      "transcription": " Oh",
+      "ground_truth": "The quick brown fox jumps over the lazy dog",
+      "wer": 1.0,
+      "cer": 0.9767441860465116,
+      "inference_time": 0.18481826782226562,
+      "success": true
+    },
+    {
+      "scenario": "noisy_5db",
+      "snr": 5,
+      "transcription": " Oh",
+      "ground_truth": "The quick brown fox jumps over the lazy dog",
+      "wer": 1.0,
+      "cer": 0.9767441860465116,
+      "inference_time": 0.1595156192779541,
+      "success": true
+    },
+    {
+      "scenario": "noisy_0db",
+      "snr": 0,
+      "transcription": " Oh",
+      "ground_truth": "The quick brown fox jumps over the lazy dog",
+      "wer": 1.0,
+      "cer": 0.9767441860465116,
+      "inference_time": 0.16675496101379395,
+      "success": true
+    },
+    {
+      "scenario": "very_noisy",
+      "snr": -5,
+      "transcription": " Oh",
+      "ground_truth": "The quick brown fox jumps over the lazy dog",
+      "wer": 1.0,
+      "cer": 0.9767441860465116,
+      "inference_time": 0.1520519256591797,
+      "success": true
+    }
+  ]
+}
