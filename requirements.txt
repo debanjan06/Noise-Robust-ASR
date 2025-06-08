@@ -15,6 +15,7 @@ jupyter>=1.0.0
 tqdm>=4.64.0
 pyyaml>=6.0
 soundfile>=0.10.0
+<<<<<<< HEAD
 jiwer>=2.3.0
 torch-audio>=0.12.0
 accelerate>=0.20.0
@@ -23,3 +24,8 @@ matplotlib
 seaborn
 datasets
 datasets
+=======
+openai-whisper>=20230918
+>>>>>>> 0e8924f53d63892523407296246ab8b27da79c95
+streamlit
+plotly
