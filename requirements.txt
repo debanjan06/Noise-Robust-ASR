@@ -21,3 +21,5 @@ accelerate>=0.20.0
 evaluate>=0.4.0jiwer
 matplotlib  
 seaborn
+datasets
+datasets
