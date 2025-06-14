@@ -405,7 +405,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 **⭐ Star this repository if you find it useful!**
 
-[🎮 **Try Live Demo**](scripts/run_universal_demo.py) • [📊 **View Results**](results/) • [🛠️ **Get Started**](#-getting-started)
+[📖 Read the Medium Article](https://medium.com/@debanjanshil66/making-speech-recognition-work-in-the-real-world-how-i-built-ai-that-actually-listens-f277e6a7aa04) • [🛠️ **Get Started**](#-getting-started)• [📊 **View Results**](results/) 
 
 *Building the future of robust speech recognition* 🚀
 
