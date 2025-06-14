@@ -396,7 +396,8 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ## 📞 **Contact & Support**
 
 - **Author**: Debanjan Shil
-- **GitHub**: [@debanjan06](https://github.com/debanjan06)
+- **Email**: debanjanshil66@gmail.com
+- **LinkedIn**: https://www.linkedin.com/in/debanjan06
 - **Medium**: [Medium Link](https://medium.com/@debanjanshil66/making-speech-recognition-work-in-the-real-world-how-i-built-ai-that-actually-listens-f277e6a7aa04)
 
 ---
