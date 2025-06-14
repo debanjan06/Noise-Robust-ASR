@@ -352,10 +352,6 @@ deployment:
 
 ---
 
-## 🤝 **Contributing**
-
-We welcome contributions! Please see our [Contributing Guidelines](CONTRIBUTING.md).
-
 ### **Development Setup**
 ```bash
 # Clone with development branch
